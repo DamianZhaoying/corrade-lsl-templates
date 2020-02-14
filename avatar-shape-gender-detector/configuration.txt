@@ -1,0 +1,29 @@
+############################# START CONFIGURATION ############################
+
+# This is a configuration notecard based on the key-value data Wizardry and Steamworks reader. 
+# Everything following the "#" character is ignored along with blank lines. Values can be set for various 
+# parameters in a simple and understandable format with the following syntax: 
+# KEY = "VALUE" 
+# Every time you change this configuration notecard, the script will reset itself and the new configuration 
+# will be read from this notecard.
+
+# The "corrade", "group" and "password" settings must correspond to your settings in Corrade.ini
+
+# This is the UUID of the Corrade bot.
+corrade = "1272a407-1af3-47f7-abcd-79f81d28637d"
+
+# The name of the group - it can also be the UUID of the group.
+group = "My Group"
+
+# The password for the group.
+password = "mypassword"
+
+# This represents the scan interval to detect avatars. Note that this script does not rescan avatars.
+interval = "10"
+
+# This represents the amount of free memory measured in bytes that the script will attempt to maintain. 
+# After the memory usage of this script exceeds this amount, the script will start culling the list of 
+# detected avatars in an attempt to not overflow and keep the script running.
+memory = "1024"
+
+############################# END CONFIGURATION #############################

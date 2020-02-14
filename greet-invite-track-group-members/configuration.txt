@@ -1,0 +1,61 @@
+############################# START CONFIGURATION ############################
+
+# This is a configuration notecard based on the key-value data Wizardry and Steamworks reader. 
+# Everything following the "#" character is ignored along with blank lines. Values can be set for various 
+# parameters in a simple and understandable format with the following syntax: 
+#
+# key = "value" 
+#
+# Every time you change this configuration notecard, the script will reset itself and red this notecard.
+
+# The "corrade", "group" and "password" settings must correspond to your settings in Corrade.ini
+
+# This is the UUID of the Corrade bot.
+corrade = "c5a04cf0-4336-4ca7-9cdf-b19a38d2e920"
+
+# The name of the group - it can also be the UUID of the group.
+group = "My Group"
+
+# The password for the group.
+password = "mypassword"
+
+# The scanning range in meters.
+range = "10"
+
+# The messae that will be displayed on the dialog pop-up when a new visitor is detected.
+welcome = "Hello, welcome to my store! Please choose from the options below. Have a nice stay!"
+
+# Buttons!
+# Here you can configure the button labels that will be displayed on the dialog pop-up.
+# The join group button label.
+join = "Join Group"
+# The info button label.
+info = "Info"
+# The landmark button label.
+mark = "Landmark"
+# The exit button label.
+exit = "Exit"
+# The gift button label.
+gift = "Free Gift"
+# The website button label.
+site = "Website"
+# The page-owner button.
+page = "Help!"
+
+# The website that the button website takes the user to.
+website = "http://grimore.org"
+# The message displayed when prompting the user to open a website.
+loadurl = "Thank you for visiting our site!"
+
+# A comma-separated list of people to be paged when an avatar clicks the page-owner button.
+help = "Kira Komarov, Some Resident"
+# The message that will be sent to the person clicking the page-owner button that help has been called.
+assist = "A manager has been paged and will be with you as soon as possible..."
+
+# A comma-separated list of people to to be notified when an avatar joins or leaves the group.
+notify = "Kira Komarov, Some Resident"
+
+# The message to send when an item is not available.
+n/a = "Sorry, that item is not yet available..."
+
+############################# END CONFIGURATION #############################

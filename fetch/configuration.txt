@@ -1,0 +1,35 @@
+########################## START CONFIGURATION ############################
+
+# This is a configuration notecard based on the key-value data Wizardry and
+# Steamworks reader. Everything following the "#" character is ignored
+# along with blank lines. Values can be set for various parameters in a
+# simple and understandable format with the following syntax: 
+# KEY =  "VALUE"
+# Every time you change this configuration notecard, the script will reset
+# itself and the new configuration will be read from this notecard.
+
+# The "corrade", "group" and "password" settings must correspond to your
+# settings in Corrade.ini otherwise the script will not work at all.
+
+# Set this to the UUID of the Corrade bot.
+corrade = "b85c75dc-115a-434f-b6a8-51787160fae0"
+
+# The name of the group.
+group = "My Group"
+
+# The password for the group.
+password = "mypassword"
+
+# The range in meters to search for objects.
+range = 10
+
+# The scan range in meters to detect object proximity.
+scan = 2
+
+# The attachment point to attach the object when returning.
+attachPoint = "Mouth"
+
+# A tag for installed notifications.
+tag = "edb86679-846b-4400-9b71-29544366c786"
+
+########################### END CONFIGURATION #############################

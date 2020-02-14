@@ -1,0 +1,20 @@
+####################### START CONFIGURATION ##################################
+
+# All these settings must correspond to the settings in Corrade.ini.
+
+# This is the UUID of the Corrade bot.
+corrade = "68599e43-b1e8-4c76-aa8c-a09af6613451"
+
+# The name of the group - it can also be the UUID of the group.
+group = "My Group"
+
+# The password for the group.
+password = "mypassword"
+
+# The distance from this box that Corrade is allowed to wander.
+radius = 5
+
+# The maximal time in seconds allowed for Corrade to remain stationary.
+wait = 60
+
+####################### END CONFIGURATION ###################################

@@ -1,0 +1,24 @@
+####################### START CONFIGURATION ##################################
+
+# All these settings must correspond to the settings in Corrade.ini.
+
+# This is the UUID of the Corrade bot.
+corrade = "4fab7014-5343-4f87-877d-0b5bdf0dbd41"
+
+# The name of the group - it can also be the UUID of the group.
+group = "My Group"
+
+# The password for the group.
+password = "My Password"
+
+# The punishment for uttering a bad word in group chat. This can be set to "mute" which takes away the 
+# typing capabilities of the offender or "eject" which ejects the offender from the group.
+punishment = "eject"
+
+# The characters to split the messages on as a list of characters.
+split = " .,"
+
+# A list of avatars to notify when Corrade punishes an avatar.
+announce = "Gonor Mana, Stuff Resident"
+
+####################### END CONFIGURATION ###################################

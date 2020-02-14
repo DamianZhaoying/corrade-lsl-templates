@@ -1,0 +1,39 @@
+########################## START CONFIGURATION ############################
+
+# This is a configuration notecard based on the key-value data Wizardry and
+# Steamworks reader. Everything following the "#" character is ignored
+# along with blank lines. Values can be set for various parameters in a
+# simple and understandable format with the following syntax: 
+# KEY =  "VALUE"
+# Every time you change this configuration notecard, the script will reset
+# itself and the new configuration will be read from this notecard.
+
+# The "corrade", "group" and "password" settings must correspond to your
+# settings in Corrade.ini otherwise the script will not work at all.
+
+# Set this to the UUID of the Corrade bot.
+# Corrade Resident
+corrade = "4a1f4994-9fcd-491f-9abc-4f4a85142c41dsa"
+
+# The name of the group - it can also be the UUID of the group.
+group = "My Group"
+
+# The password for the group.
+password = "mypassword"
+
+# The range in meters to follow the wearer of the follower at.
+range = 5
+
+# The distance from this box that Corrade is allowed to wander.
+radius = 5
+
+# The maximal time in seconds allowed for Corrade to remain stationary.
+wait = 60
+
+# The range in which to search for primitives and avatars.
+radar = 5
+
+# The version that this HUD is compatible with.
+version = 10.1
+
+########################### END CONFIGURATION #############################

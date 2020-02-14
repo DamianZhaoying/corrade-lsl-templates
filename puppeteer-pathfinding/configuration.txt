@@ -1,0 +1,30 @@
+############################# START CONFIGURATION ############################
+
+# This is a configuration notecard based on the key-value data Wizardry and Steamworks reader. 
+# Everything following the "#" character is ignored along with blank lines. Values can be set for various 
+# parameters in a simple and understandable format with the following syntax: 
+# KEY := "VALUE" 
+# Every time you change this configuration notecard, the script will reset itself and the new configuration 
+# will be read from this notecard.
+
+# The "corrade", "group" and "password" settings must correspond to your settings in Corrade.ini
+
+# This is the UUID of the Corrade bot.
+corrade = "0b20a4ee-89d8-43ce-ad5b-39a7fb81f5c3"
+
+# The name of the group - it can also be the UUID of the group.
+group = "My Group"
+
+# The password for the group.
+password = "mypassword"
+
+# The avatar to whom local chat will be relayed to.
+path = "<199.007645, 69.56356, 23.839432>, <199.007645, 66.018173, 23.839432>, <194.149078, 66.018173, 23.839432>, <194.149078, 69.623375, 23.839432>"
+
+# The amount of seconds to wait between path points.
+pause = "5"
+
+# Whether to randomize the pause delay.
+randomize = "true"
+
+############################# END CONFIGURATION #############################

@@ -1,0 +1,37 @@
+####################### START CONFIGURATION ##################################
+
+# The UUID of the owner of the rental box.
+owner = "ccad6083-cb3b-44e0-b1ba-26c640d1236d"
+
+##
+# Corrade settings.
+##
+##
+# All these settings must correspond to the settings in Corrade.ini.
+##
+# This is the UUID of the Corrade bot.
+corrade = "0afe54ca-93fb-4c2f-b7da-0623aec25a63"
+# The name of the group - it can also be the UUID of the group.
+group = "My Group"
+# The password for the group.
+password = "mypassword"
+##
+
+##
+# Rental settings.
+##
+# The rental settings define a price for an amount of time such that the renter may pay any amount and
+# the script is designed to compute the time that will be added to their rent.
+##
+# The price for renting this place in L$.
+price = 100
+# The time that this place can be rented for in seconds.
+# Cheatsheet:
+# 1 day is 86400 seconds (default)
+# 1 week is 604800 seconds
+rent = 120
+# The name of the role to invite renters to.
+role = "Ecto"
+##
+
+####################### END CONFIGURATION ###################################

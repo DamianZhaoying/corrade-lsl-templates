@@ -1,0 +1,24 @@
+######################### START CONFIGURATION #############################
+
+# All these settings must correspond to the settings in Corrade.ini.
+
+# This is the UUID of the Corrade bot.
+corrade = "a6c43ad8-9086-46ee-9683-76e047062f05"
+
+# The name of the group - it can also be the UUID of the group.
+group = "My Group"
+
+# The password for the group.
+password =  "mypassword"
+
+# The hunt item to rez.
+item = "[WaS-K] Coin Bag"
+
+# At each of these points of interest (POI), Corrade will rez a hunt item.
+# The POIs must be named in sequence, ie: POI_1, POI_2, etc...  and you can 
+# add as many POIs as you like.
+POI_1 = <166.024597, 145.024246, 3455.350342>
+POI_2 = <155.617996, 144.363434, 3455.368896>
+POI_3 = <160.74292, 155.446198, 3455.368896>
+
+######################### END CONFIGURATION ###############################

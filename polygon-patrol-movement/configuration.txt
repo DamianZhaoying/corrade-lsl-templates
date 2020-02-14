@@ -1,0 +1,42 @@
+####################### START CONFIGURATION ##################################
+
+# All these settings must correspond to the settings in Corrade.ini.
+
+# This is the UUID of the Corrade bot.
+corrade = "97515305-5f46-4521-9568-a879b8c1f1c9"
+
+# The name of the group - it can also be the UUID of the group.
+group = "My Group"
+
+# The password for the group.
+password = "mypassword"
+
+# The contour of a polygon represented by regional point-vectors, for example:
+#
+#     1 +----+ 2
+#        |      | 
+#     5 +      + 3
+#          \   /
+#            + 4
+# 
+# The points must be named in sequence, ie: point_1, point_2, etc... By following
+# the contour of the polygon that you wish Corrade to wander within.
+#
+# The following values represent the contour of a polygon with 12 points:
+point_1 = <90.140633, 195.659195, 0>
+point_2 = <93.146393, 162.897415, 0>
+point_3 = <90.38028, 156.655594, 0>
+point_4 = <79.35807, 138.610291, 0>
+point_5 = <93.638596, 124.921394, 0>
+point_6 = <110.910965, 120.750427, 0>
+point_7 = <125.259796, 116.540215, 0>
+point_8 = <140.697433, 151.190826, 0>
+point_9 = <133.573517, 163.03215, 0>
+point_10 = <122.473473, 161.892914, 0>
+point_11 = <118.320236, 167.628906, 0>
+point_12 = <107.47805, 198.410461, 0>
+
+# The maximal time in seconds allowed for Corrade to remain stationary.
+wait = 60
+
+####################### END CONFIGURATION ###################################

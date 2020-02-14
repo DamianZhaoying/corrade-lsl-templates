@@ -1,0 +1,17 @@
+####################### START CONFIGURATION ##################################
+
+# All these settings must correspond to the settings in Corrade.ini.
+
+# This is the UUID of the Corrade bot.
+corrade = "fbde0a44-37e2-4f80-893d-8748788768f7"
+
+# The name of the group - it can also be the UUID of the group.
+group = "My Group"
+
+# The password for the group.
+password = "mypassword"
+
+# The upper limit in seconds to post a message.
+interval = 86400
+
+####################### END CONFIGURATION ###################################

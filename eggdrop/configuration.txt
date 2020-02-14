@@ -1,0 +1,73 @@
+########################## START CONFIGURATION ############################
+
+# This is a configuration notecard based on the key-value data Wizardry and
+# Steamworks reader. Everything following the "#" character is ignored
+# along with blank lines. Values can be set for various parameters in a
+# simple and understandable format with the following syntax: 
+# KEY =  "VALUE"
+# Every time you change this configuration notecard, the script will reset
+# itself and the new configuration will be read from this notecard.
+
+# The "corrade", "group" and "password" settings must correspond to your
+# settings in Corrade.ini otherwise the script will not work at all.
+
+# Set this to the UUID of the Corrade bot.
+# Ecto Resident
+corrade = "d726edfb-a1c4-4499-8c01-2746227b55e5"
+
+# The name of the group - it can also be the UUID of the group.
+group = "My Group"
+
+# The password for the group.
+password = "mypassword"
+
+# A short nickname for the bot - something you would call it for short.
+nickname = "ecto"
+
+# The notification tag - any string you can come up with except the empty string.
+notification tag = "147d8bf1-4fbc-4c31-b0ea-1d2a72a41041"
+
+## Corrade AI module parameters.
+# Subscription ID
+ai subscription = "ee12b9b4-87e7-41e2-84a6-e505e32aaa0b"
+# Host
+ai host = "127.0.0.1"
+# Port
+ai port = "1443"
+# Username
+ai username = "corrade"
+# Secret
+ai secret = "corrade"
+
+# The version that this template is compatible with (no need to change).
+version = 10.0
+
+# The character to use for commands.
+command = @
+
+# The range for the dice rolling command (inclusive).
+roll range = 3,64
+
+# The roles that are eligible for administrative group functions such as "eject".
+admin roles = Owners,Officers,Ecto
+
+# Wiki database table.
+wiki table = "corrade-eggdrop-wiki"
+
+# The number of records to be retrieved from a namespace.
+# This limit works around LSL HTTP limitations not being able to receive more than 2KiB. 
+wiki results limit = 15
+
+# How many paths in total should be returned when looking up data.
+wiki search limit = 5
+
+# MOTD database table.
+motd table = "corrade-eggdrop-motd"
+
+# Database table for jokes.
+joke table = "corrade-eggdrop-joke"
+
+# The name of the help notecard in this primitive's inventory.
+help card = "Help"
+
+########################### END CONFIGURATION #############################

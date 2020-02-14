@@ -1,0 +1,28 @@
+###########################################################################
+# The crontab script can send a linked message to the link set periodically 
+# at a specified time. The syntax is similar to the Unix crontab where 
+# asterisks * represent any possible value. Contrasted to some crontab 
+# implementations, this crontab does not support ranges (1-5) or 
+# enumerations (3,4,5) as you can find in some Unix implementation of 
+# crontab. However, you can always add as many crontab lines as you wish to 
+# be executed at a specified time. The file supports comments starting with
+# the hash character "#" which can be placed in-line or at the start. Any 
+# text after the hash sign will be ignored.
+###########################################################################
+###########################################################################
+# Syntax:
+###########################################################################
+# *  *  *  *  * message to send to the link-set
+# |  |  |  |  |
+# |  |  |  |  +-- day of week (0-7) (Sunday=0 or 7)
+# |  |  |  +----- month (1-12)
+# |  |  +-------- day of month (1-31)
+# |  +----------- hour (0-23)
+# +-------------- minute (0-59)
+
+# ALL TIMES ARE IN SLT!
+
+# at minute 10, hour 6, on the 7th day of the 9th month on a Sunday
+# send a notice with the subject "Hello" and the message "Good day!"
+10 6 7 9 7 Hello|Good day!
+12 14 8 4 3 Test|Working!|Testcard

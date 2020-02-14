@@ -1,0 +1,30 @@
+############################# START CONFIGURATION ############################
+
+# This is a configuration notecard based on the key-value data Wizardry and Steamworks reader. 
+# Everything following the "#" character is ignored along with blank lines. Values can be set for various 
+# parameters in a simple and understandable format with the following syntax: 
+# KEY = "VALUE" 
+# Every time you change this configuration notecard, the script will reset itself and the new configuration 
+# will be read from this notecard.
+
+# The "corrade", "group" and "password" settings must correspond to your settings in Corrade.ini
+
+# This is the UUID of the Corrade bot.
+corrade = "a87202c7-1b95-4d56-b099-53b6cb1517f2"
+
+# The name of the group - it can also be the UUID of the group.
+group = "My Group"
+
+# The password for the group.
+password = "mypassword"
+
+# A CSV list of region names to escape to in case of a region restart.
+# For example's sake, this example lists several infohubs that may be safe during a region restart.
+regions = "Tahoe Springs,Castle Valeria,Barbarossa,Calleta"
+
+# The name of the home region where Corrade will be teleported back after a region restart.
+home = "Puguet Sound"
+# The position on the home region to teleport back to as a local 3-vector.
+position = "<130.588501, 169.906158, 3402.433838>"
+
+############################# END CONFIGURATION #############################

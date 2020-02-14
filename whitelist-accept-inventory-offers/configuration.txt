@@ -1,0 +1,27 @@
+############## START CONFIGURATION ##############
+
+# This is a configuration notecard based on the key-value data 
+# Wizardry and Steamworks reader. Everything following the "#" 
+# character is ignored along with blank lines. Values can be set 
+# for various parameters in a simple and understandable format 
+# with the following syntax:  KEY = "VALUE" 
+# Every time you change this configuration notecard, the script 
+# will reset itself and the new configuration will be read.
+
+# The "corrade", "group" and "password" settings must 
+# correspond to your settings in Corrade.ini
+
+# This is the UUID of the Corrade bot.
+corrade = "036558c9-df5e-4806-bd79-f7ef33eb6202"
+
+# The name of the group - it can also be the UUID of the group.
+group = "My Group"
+
+# The password for the group.
+password = "mypassword"
+
+# An RFC4180 CSV list of avatar names or UUIDs from whom 
+# Corrade will automatically accept inventory offers
+whitelist = "ebd52638-efec-4a39-8c08-f602a74314f1,"Big Lebowski","MrGonads Resident",81bec9b3-5544-460f-83d9-257f2fe97f70"
+
+############## END CONFIGURATION ###############

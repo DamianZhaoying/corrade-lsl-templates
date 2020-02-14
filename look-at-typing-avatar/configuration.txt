@@ -1,0 +1,32 @@
+############################# START CONFIGURATION ############################
+
+# This is a configuration notecard based on the key-value data Wizardry and Steamworks reader. 
+# Everything following the "#" character is ignored along with blank lines. Values can be set for various 
+# parameters in a simple and understandable format with the following syntax: 
+# KEY = "VALUE" 
+# Every time you change this configuration notecard, the script will reset itself and the new configuration 
+# will be read from this notecard.
+
+# The "corrade", "group" and "password" settings must correspond to your settings in Corrade.ini
+
+# This is the UUID of the Corrade bot.
+corrade = "e8377ccf-6f51-4a78-ad2d-bdf5f37f278f"
+
+# The name of the group - it can also be the UUID of the group.
+group = "My Group"
+
+# The password for the group.
+password = "mypassword"
+
+# A random set of UUIDs to use for both point and look effects. You can set these to any UUID you like.
+lookUUID = "f73f91b4-67f5-4bd1-ac4f-428c5d9def95"
+pointUUID = "0977f6dc-fb98-487b-8186-b36f83172444"
+
+# The effect type. Can be either "look" or "point". The former makes Corrade turn its head toward the
+# agent whilst the latter will also make Corrade point with its hand towards the agent.
+effect = "look"
+
+# The time in seconds to look or point at the avatar currently typing on local chat.
+duration = 10
+
+############################# END CONFIGURATION #############################

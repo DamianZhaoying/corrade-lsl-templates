@@ -1,0 +1,17 @@
+####################### START CONFIGURATION ##################################
+
+# All these settings must correspond to the settings in Corrade.ini.
+
+# This is the UUID of the Corrade bot.
+corrade = "3ade3b74-378d-4fa1-88e6-96ea45d942bb"
+
+# The name of the group - it can also be the UUID of the group.
+group = "My Group"
+
+# The password for the group.
+password =  "mypassword"
+
+# The menu items to send via llDialog to Corrade as a CSV list of strings.
+buttons = "AUTO"
+
+####################### END CONFIGURATION ###################################

@@ -1,0 +1,21 @@
+~~~~~~~~~ Corrade Eggdrop ~~~~~~~~~ 
+Syntax: @<command> [OPTIONS]
+    @ai <message> - Talk to Corrade.
+    @stitch <version> - Upgrade or downgrade Corrade.
+    @roll <number>    - Roll a dice with <number> sides.
+    @spank <name>    - Spank a group member.
+    @wiki <get|set|dir|find>    - Group Wiki commands.
+    @fortune        - Get a random fortune cookie.
+    @joke        - Get a random joke.
+    @eval <expression>    - Evaluate a mathematical expression.
+    @ban <first> <last> [nosoft]    - Ban an avata by name.
+    @unban <first> <last> [nosoft]  - Unban an avata by name.
+    @softban <first> <last> [time] - Soft ban an avatar for minutes time.
+    @softunban <first> <last> - Soft unban an avatar.
+    @invite <first> <last>    - Invite agent to group by name.
+    @motd [message]    - Get or set the group MOTD greeting.
+    @notice (subject) (message) (attachment) - Send a notice.
+    @version - Retrieve the Corrade version.
+
+    @help    - This help message.
+~~~~~~~~~ Corrade Eggdrop ~~~~~~~~~
